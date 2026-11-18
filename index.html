@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Find things to do near you · Activity App</title>
+<meta name="description" content="Activity App: find and host free activities near you in Kenya. Join, chat, show up.">
+<style>
+  :root{--bg:#0e0f12;--card:#171a1f;--alt:#22262d;--ink:#f2f4f7;--dim:#9aa3af;--lime:#c8ff3d;--line:#2a2f37}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  .wrap{max-width:720px;margin:0 auto;padding:0 20px}
+  header{border-bottom:1px solid var(--line);padding:18px 0}
+  header .wrap{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+  .logo{font-weight:900;font-size:19px;letter-spacing:-.3px}
+  .logo span{color:var(--lime)}
+  nav{margin-left:auto;display:flex;gap:16px;flex-wrap:wrap}
+  nav a{color:var(--dim);text-decoration:none;font-size:14px;font-weight:700}
+  nav a:hover,nav a[aria-current]{color:var(--lime)}
+  main{padding:34px 0 10px}
+  h1{font-size:30px;line-height:1.2;margin:0 0 6px;letter-spacing:-.6px}
+  .updated{color:var(--dim);font-size:13px;margin:0 0 28px}
+  h2{font-size:17px;margin:30px 0 8px}
+  p{margin:0 0 14px;color:#dfe3e9}
+  a{color:var(--lime)}
+  .lead{font-size:18px;color:var(--dim);margin:0 0 26px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin:0 0 14px}
+  .card h2{margin-top:0}
+  .card p:last-child{margin-bottom:0}
+  .grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));margin:26px 0}
+  .btn{display:inline-block;background:var(--lime);color:#111;font-weight:900;text-decoration:none;
+       padding:13px 22px;border-radius:14px;margin:4px 8px 4px 0}
+  .btn.ghost{background:transparent;color:var(--ink);border:1.5px solid var(--line)}
+  .soon{color:var(--dim);font-size:14px;margin:6px 0 0}
+  footer{border-top:1px solid var(--line);margin-top:44px;padding:22px 0 40px;color:var(--dim);font-size:14px}
+  footer a{color:var(--dim);margin-right:16px}
+  @media (prefers-color-scheme:light){
+    :root{--bg:#fff;--card:#f7f8fa;--alt:#eef0f3;--ink:#14171c;--dim:#5b6472;--line:#e3e6ea}
+    p{color:#2b313a}
+    a{color:#3f7a00}
+    .logo span{color:#3f7a00}
+    nav a:hover,nav a[aria-current]{color:#3f7a00}
+    .btn{background:#3f7a00;color:#fff}
+    .btn.ghost{background:transparent;color:var(--ink)}
+  }
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <div class="logo">Activity<span>App</span></div>
+  <nav>
+    <a href="./" aria-current="page">Home</a>
+    <a href="privacy/">Privacy</a>
+    <a href="terms/">Terms</a>
+  </nav>
+</div></header>
+<main><div class="wrap">
+<h1>Find things to do near you.</h1>
+<p class="lead">Free, one-time activities across Kenya. A game, a hike, a study group, a clean-up.
+Browse without an account, join when you see something you like, and chat with everyone going.</p>
+<p><a class="btn" href="#get">Get the app</a><a class="btn ghost" href="privacy/">How we handle your data</a></p>
+<div class="grid">
+  <div class="card"><h2>Browse freely</h2><p>See what is happening by county, sub-county, ward or area without signing up.</p></div>
+  <div class="card"><h2>Verified hosts</h2><p>Anyone hosting an activity has had their ID and photo checked by our team. They carry a tick.</p></div>
+  <div class="card"><h2>Chat before you go</h2><p>Every activity has its own chat: ask questions, share the meeting point, say you are on the way.</p></div>
+  <div class="card"><h2>Adults only, always free</h2><p>18 and over. No payments, no tickets, no subscriptions.</p></div>
+</div>
+<h2 id="get">Getting the app</h2>
+<div class="card">
+  <p>Activity App is coming to Google Play. If you would like to join the pilot, email
+  <a href="mailto:bizconnectkenya@gmail.com">bizconnectkenya@gmail.com</a> and we will send you the link.</p>
+  <p class="soon">An iPhone version will follow.</p>
+</div>
+<h2>Staying safe</h2>
+<div class="card">
+  <p>Activities are organised by other members, not by us. Meet in public places, tell someone where you are
+  going, and leave if anything feels wrong. Every activity, message and voice note can be reported from inside
+  the app, and hosts can remove anyone from their own activity.</p>
+  <p>Read the <a href="terms/">Terms of Service</a> before you join an activity.</p>
+</div>
+</div></main>
+<footer><div class="wrap">
+  <a href="privacy/">Privacy Policy</a><a href="terms/">Terms of Service</a>
+  <a href="mailto:bizconnectkenya@gmail.com">bizconnectkenya@gmail.com</a>
+  <p>BizConnect, Kenya. © 2026</p>
+</div></footer>
+</body></html>
